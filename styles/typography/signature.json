@@ -1,0 +1,72 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Signature",
+	"description": "Signature style variation",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans, sans-serif",
+					"name": "Google Sans",
+					"slug": "google-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Bodoni Moda",
+							"fontStyle": "normal",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/bodoni-moda/bodoni-moda.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Bodoni Moda",
+							"fontStyle": "italic",
+							"fontWeight": "400 900",
+							"src": [
+								"file:./assets/fonts/bodoni-moda/bodoni-moda-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "Bodoni Moda, serif",
+					"name": "Bodoni Moda",
+					"slug": "bodoni-moda"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--bodoni-moda)",
+					"fontWeight": "700"
+				}
+			}
+		}
+	}
+}

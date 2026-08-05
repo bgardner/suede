@@ -1,0 +1,202 @@
+/*
+Theme Name: Suede
+Theme URI: https://briangardner.com/suede/
+Author: Brian Gardner
+Author URI: https://briangardner.com/
+Description: A refined approach to design centered on authority and presence.
+Version: 0.2.7
+Requires at least: 7.1
+Tested up to: 7.1
+Requires PHP: 7.4
+License: GNU General Public License v3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: suede
+*/
+
+/* Base
+---------------------------------------- */
+
+:root {
+	--suede-motion-distance: 30px;
+	--suede-motion-scale: 1.05;
+	--suede-motion-ease: ease-out;
+	--suede-motion-fast: 0.25s;
+	--suede-motion-slow: 0.5s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+b,
+strong {
+	font-weight: 600;
+}
+
+a,
+button,
+.wp-element-button {
+	transition: background-color var(--suede-motion-fast) var(--suede-motion-ease),
+	            color var(--suede-motion-fast) var(--suede-motion-ease);
+}
+
+/* Forms
+---------------------------------------- */
+
+input,
+select,
+textarea {
+	box-sizing: border-box;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: var(--wp--custom--line-height--medium);
+	width: 100%;
+}
+
+input:not([type="submit"]):focus,
+textarea:focus {
+	border-color: var(--wp--preset--color--accent);
+	outline: 1px solid var(--wp--preset--color--accent);
+}
+
+input[type="checkbox"],
+input[type="image"],
+input[type="radio"] {
+	width: auto;
+}
+
+::placeholder {
+	color: inherit;
+	font-size: var(--wp--preset--font-size--x-small);
+	opacity: 0.5;
+}
+
+/* Blocks
+---------------------------------------- */
+
+/* Navigation */
+
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close {
+	border: 1px solid currentColor;
+	padding: 2px;
+}
+
+/* Navigation submenu */
+
+.wp-block-navigation .wp-block-navigation__submenu-container {
+	background-color: var(--wp--preset--color--black) !important;
+	border-color: var(--wp--preset--color--white-15) !important;
+	color: var(--wp--preset--color--white) !important;
+	left: -16px !important;
+	min-width: 180px !important;
+	padding: 10px !important;
+}
+
+.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+	padding: 2px 5px !important;
+}
+
+/* Utilities
+---------------------------------------- */
+
+/* Height */
+
+.full-height {
+	height: 100%;
+}
+
+/* Overflow */
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+/* Position */
+
+.position-fixed {
+	position: fixed;
+}
+
+.position-relative {
+	position: relative;
+}
+
+/* Underline */
+
+.no-underline {
+	text-decoration: none;
+}
+
+/* Wrap */
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+/* Z-index */
+
+.z-index-negative {
+	z-index: -99;
+}
+
+.z-index-positive {
+	z-index: 99;
+}
+
+/* Media Queries
+---------------------------------------- */
+
+@media (min-width: 600px) {
+
+	/* Header */
+
+	.site-header {
+		position: sticky;
+		top: 0;
+		z-index: 1000;
+	}
+
+	.scroll-reveal .site-header {
+		transition: transform var(--suede-motion-slow) var(--suede-motion-ease);
+	}
+
+	.scroll-reveal body.scroll-down .site-header {
+		transform: translateY(-100%);
+	}
+
+	.scroll-reveal body.scroll-up .site-header {
+		transform: translateY(0);
+	}
+
+	/* Text */
+	
+	.vertical-text {
+		transform: rotate(180deg);
+		white-space: nowrap;
+		writing-mode: vertical-rl;
+	}
+
+}
+
+@media (min-width: 600px) and (prefers-reduced-motion: reduce) {
+
+	.scroll-reveal .site-header {
+		transform: none !important;
+		transition: none !important;
+	}
+
+}
+
+@media (max-width: 782px) {
+
+	/* Columns */
+
+	.wp-block-columns.is-style-column-reverse {
+		flex-direction: column-reverse;
+	}
+
+}
