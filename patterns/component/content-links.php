@@ -5,7 +5,7 @@
  * Categories: suede-component
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Links","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"dimensions":{"minHeight":"100vh"},"border":{"width":"1px"}},"backgroundColor":"white","borderColor":"black-10","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+<!-- wp:group {"metadata":{"name":"Links"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"dimensions":{"minHeight":"100vh"},"border":{"width":"1px"}},"backgroundColor":"white","borderColor":"black-10","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group alignfull has-border-color has-black-10-border-color has-white-background-color has-background" style="border-width:1px;min-height:100vh;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"style":{"spacing":{"padding":{"right":"30px","left":"30px"}}},"layout":{"type":"constrained","wideSize":"600px"}} -->
 	<div class="wp-block-group" style="padding-right:30px;padding-left:30px">
