@@ -1,0 +1,104 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Suede Editorial",
+	"description": "A refined typographic style with expressive width variations.",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans, sans-serif",
+					"name": "Google Sans",
+					"slug": "google-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Condensed",
+							"fontStyle": "normal",
+							"fontVariationSettings": "\"wdth\" 85",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Condensed",
+							"fontStyle": "italic",
+							"fontVariationSettings": "\"wdth\" 85",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans Condensed, sans-serif",
+					"name": "Google Sans Condensed",
+					"slug": "google-sans-condensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Expanded",
+							"fontStyle": "normal",
+							"fontVariationSettings": "\"wdth\" 110",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Expanded",
+							"fontStyle": "italic",
+							"fontVariationSettings": "\"wdth\" 110",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans Expanded, sans-serif",
+					"name": "Google Sans Expanded",
+					"slug": "google-sans-expanded"
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--google-sans-expanded)",
+					"letterSpacing": "-0.01em"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--google-sans)"
+		}
+	}
+}

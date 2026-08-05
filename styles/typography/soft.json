@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Suede Soft",
+	"description": "A softer typographic style with a warm, approachable feel.",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Soft",
+							"fontStyle": "normal",
+							"fontVariationSettings": "\"ROND\" 100",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Soft",
+							"fontStyle": "italic",
+							"fontVariationSettings": "\"ROND\" 100",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans Soft, sans-serif",
+					"name": "Google Sans Soft",
+					"slug": "google-sans-soft"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--google-sans-soft)"
+		}
+	}
+}
