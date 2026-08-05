@@ -698,6 +698,7 @@
 		{ "area": "navigation-overlay", "name": "navigation-overlay", "title": "Navigation Overlay" }
 	],
 	"customTemplates": [
+		{ "name": "blank", "postTypes": [ "page", "post" ], "title": "Blank" },
 		{ "name": "no-title", "postTypes": [ "page", "post" ], "title": "No Title" }
 	]
 }
