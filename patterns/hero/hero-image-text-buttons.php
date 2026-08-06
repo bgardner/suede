@@ -2,7 +2,7 @@
 /**
  * Title: Section with image, text, buttons
  * Slug: suede/hero-image-text-buttons
- * Categories: suede-component
+ * Categories: suede-hero
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Hero Section"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","wideSize":"960px"}} -->

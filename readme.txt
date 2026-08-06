@@ -46,4 +46,3 @@ License URL: https://www.gnu.org/licenses/gpl-3.0.html
 sample-avatar.svg
 sample-icon.svg
 sample-image.svg
-sample-image-black.svg

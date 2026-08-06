@@ -11,7 +11,7 @@ function suede_register_pattern_categories() {
 		'editorial' => __( 'Editorial', 'suede' ),
 		'footer'    => __( 'Footer', 'suede' ),
 		'header'    => __( 'Header', 'suede' ),
-		'signature' => __( 'Signature', 'suede' ),
+		'hero'      => __( 'Hero', 'suede' ),
 	];
 
 	foreach ( $categories as $slug => $label ) {
