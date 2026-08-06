@@ -120,7 +120,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+								"file:./assets/fonts/google-sans/google-sans.woff2"
 							]
 						},
 						{
@@ -129,7 +129,7 @@
 							"fontStyle": "italic",
 							"fontWeight": "100 900",
 							"src": [
-								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+								"file:./assets/fonts/google-sans/google-sans.woff2"
 							]
 						}
 					],
@@ -320,6 +320,14 @@
 				}
 			},
 			"core/navigation-link": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xxx-small)",
+					"fontWeight": "500",
+					"letterSpacing": "0.05em",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/navigation-submenu": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xxx-small)",
 					"fontWeight": "500",
