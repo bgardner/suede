@@ -1,7 +1,7 @@
 === Suede ===
 Contributors: bgardner
-Requires at least: 7.0
-Tested up to: 7.0
+Requires at least: 7.1
+Tested up to: 7.1
 Requires PHP: 7.4
 Stable tag: 0.2.7
 License: GNU General Public License v3
