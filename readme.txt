@@ -1,7 +1,7 @@
 === Suede ===
 Contributors: bgardner
-Requires at least: 7.1
-Tested up to: 7.1
+Requires at least: 7.0
+Tested up to: 7.0
 Requires PHP: 7.4
 Stable tag: 0.2.7
 License: GNU General Public License v3
@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-The premier block theme for WordPress designers and agencies.
+A refined approach to design centered on authority and presence.
 
 Suede is distributed as open-source software under the GPL, but it is offered commercially as a professionally curated and maintained theme.
 
