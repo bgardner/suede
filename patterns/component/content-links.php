@@ -24,17 +24,17 @@
 		<!-- /wp:group -->
 		<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
 		<div class="wp-block-buttons">
-			<!-- wp:button {"width":100} -->
-			<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Visit My Website', 'suede' ); ?></a></div>
+			<!-- wp:button {"style":{"dimensions":{"width":"100%"}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Visit My Website', 'suede' ); ?></a></div>
 			<!-- /wp:button -->
-			<!-- wp:button {"width":100} -->
-			<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Shop My Store', 'suede' ); ?></a></div>
+			<!-- wp:button {"style":{"dimensions":{"width":"100%"}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Shop My Store', 'suede' ); ?></a></div>
 			<!-- /wp:button -->
-			<!-- wp:button {"width":100} -->
-			<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'View My Services', 'suede' ); ?></a></div>
+			<!-- wp:button {"style":{"dimensions":{"width":"100%"}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'View My Services', 'suede' ); ?></a></div>
 			<!-- /wp:button -->
-			<!-- wp:button {"width":100} -->
-			<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Read My Journal', 'suede' ); ?></a></div>
+			<!-- wp:button {"style":{"dimensions":{"width":"100%"}}} -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Read My Journal', 'suede' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
