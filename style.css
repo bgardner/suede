@@ -40,7 +40,7 @@ a,
 button,
 .wp-element-button {
 	transition: background-color var(--suede-motion-fast) var(--suede-motion-ease),
-	            color var(--suede-motion-fast) var(--suede-motion-ease);
+				color var(--suede-motion-fast) var(--suede-motion-ease);
 }
 
 /* Forms
@@ -78,34 +78,70 @@ input[type="radio"] {
 /* Blocks
 ---------------------------------------- */
 
+/* Heading, Paragraph, Post Excerpt, Post Title */
+
+.wp-block-heading.is-style-balanced,
+.wp-block-paragraph.is-style-balanced,
+.wp-block-post-excerpt.is-style-balanced,
+.wp-block-post-title.is-style-balanced {
+	text-wrap: balance;
+}
+
+/* Cover, Image, Post Featured Image */
+
+.wp-block-cover.is-style-zoom,
+.wp-block-image.is-style-zoom,
+.wp-block-post-featured-image.is-style-zoom {
+	overflow: hidden;
+}
+
+.wp-block-cover.is-style-zoom img,
+.wp-block-image.is-style-zoom img,
+.wp-block-post-featured-image.is-style-zoom img {
+	transition: transform var(--suede-motion-slow) var(--suede-motion-ease);
+}
+
+.wp-block-cover.is-style-zoom:hover img,
+.wp-block-image.is-style-zoom:hover img,
+.wp-block-post-featured-image.is-style-zoom:hover img {
+	transform: scale(var(--suede-motion-scale));
+}
+
 /* Image */
 
 .wp-block-image.is-style-corners {
-    padding: 20px;
-    position: relative;
+	padding: 20px;
+	position: relative;
 }
 
 .wp-block-image.is-style-corners::before {
-    background-image:
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
-        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent));
-    background-position:
-        top left, top left, top right, top right,
-        bottom left, bottom left, bottom right, bottom right;
-    background-repeat: no-repeat;
-    background-size:
-        40px 1px, 1px 40px, 40px 1px, 1px 40px,
-        40px 1px, 1px 40px, 40px 1px, 1px 40px;
-    content: "";
-    inset: 0;
-    pointer-events: none;
-    position: absolute;
+	background-image:
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+		linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent));
+	background-position:
+		top left, top left, top right, top right,
+		bottom left, bottom left, bottom right, bottom right;
+	background-repeat: no-repeat;
+	background-size:
+		40px 1px, 1px 40px, 40px 1px, 1px 40px,
+		40px 1px, 1px 40px, 40px 1px, 1px 40px;
+	content: "";
+	inset: 0;
+	pointer-events: none;
+	position: absolute;
+}
+
+/* List */
+
+.wp-block-list.is-style-no-style {
+	list-style-type: none;
+	padding-left: 0;
 }
 
 /* Navigation */
@@ -116,7 +152,7 @@ input[type="radio"] {
 	padding: 2px;
 }
 
-/* Navigation submenu */
+/* Navigation Submenu */
 
 .wp-block-navigation .wp-block-navigation__submenu-container {
 	background-color: var(--wp--preset--color--black) !important;
@@ -129,6 +165,34 @@ input[type="radio"] {
 
 .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
 	padding: 2px 5px !important;
+}
+
+/* Paragraph */
+
+.wp-block-paragraph.is-style-indent {
+	text-indent: 2em;
+}
+
+/* Separator */
+
+.wp-block-separator.is-style-extended {
+	width: 180px;
+}
+
+.wp-block-separator.is-style-short {
+	width: 40px;
+}
+
+/* Social Links */
+
+.wp-block-social-links.is-style-outline li.wp-block-social-link {
+	background-color: transparent;
+	border: 1px solid currentColor;
+	color: currentColor;
+}
+
+.wp-block-social-links.is-style-square .wp-block-social-link {
+	border-radius: 0;
 }
 
 /* Utilities
