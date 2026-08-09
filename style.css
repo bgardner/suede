@@ -78,6 +78,36 @@ input[type="radio"] {
 /* Blocks
 ---------------------------------------- */
 
+/* Image */
+
+.wp-block-image.is-style-corners {
+    padding: 20px;
+    position: relative;
+}
+
+.wp-block-image.is-style-corners::before {
+    background-image:
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent)),
+        linear-gradient(var(--wp--preset--color--accent), var(--wp--preset--color--accent));
+    background-position:
+        top left, top left, top right, top right,
+        bottom left, bottom left, bottom right, bottom right;
+    background-repeat: no-repeat;
+    background-size:
+        40px 1px, 1px 40px, 40px 1px, 1px 40px,
+        40px 1px, 1px 40px, 40px 1px, 1px 40px;
+    content: "";
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
 /* Navigation */
 
 .wp-block-navigation__responsive-container-open,

@@ -7,44 +7,45 @@
 
 function suede_register_block_styles() {
 	$block_styles = [
-		'core/columns'             => [
+		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'suede' ),
 		],
-		'core/cover'               => [
+		'core/cover' => [
 			'zoom' => __( 'Zoom', 'suede' ),
 		],
-		'core/heading'             => [
-			'balanced'    => __( 'Balanced', 'suede' ),
-			'eyebrow'     => __( 'Eyebrow', 'suede' ),
+		'core/heading' => [
+			'balanced' => __( 'Balanced', 'suede' ),
+			'eyebrow'  => __( 'Eyebrow', 'suede' ),
 		],
-		'core/image'               => [
-			'zoom' => __( 'Zoom', 'suede' ),
+		'core/image' => [
+			'corners' => __( 'Corners', 'suede' ),
+			'zoom'    => __( 'Zoom', 'suede' ),
 		],
-		'core/list'                => [
+		'core/list' => [
 			'no-style' => __( 'No Style', 'suede' ),
 		],
-		'core/paragraph'           => [
+		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'suede' ),
 			'eyebrow'  => __( 'Eyebrow', 'suede' ),
 			'indent'   => __( 'Indent', 'suede' ),
 		],
-		'core/post-excerpt'        => [
+		'core/post-excerpt' => [
 			'balanced' => __( 'Balanced', 'suede' ),
 		],
 		'core/post-featured-image' => [
 			'zoom' => __( 'Zoom', 'suede' ),
 		],
-		'core/post-title'          => [
+		'core/post-title' => [
 			'balanced' => __( 'Balanced', 'suede' ),
 		],
-		'core/separator'           => [
+		'core/separator' => [
 			'extended' => __( 'Extended', 'suede' ),
 			'short'    => __( 'Short', 'suede' ),
 		],
-		'core/site-title'          => [
+		'core/site-title' => [
 			'eyebrow' => __( 'Eyebrow', 'suede' ),
 		],
-		'core/social-links'        => [
+		'core/social-links' => [
 			'outline' => __( 'Outline', 'suede' ),
 			'square'  => __( 'Square', 'suede' ),
 		],
