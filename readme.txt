@@ -40,9 +40,16 @@ https://fonts.google.com/specimen/Google+Sans+Flex
 
 == Images ==
 
+The following images are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
+License URL: https://www.apache.org/licenses/LICENSE-2.0
+
+quote-bottom.svg
+quote-top.svg
+
 The following images are self-designed and declared under GPL License, Version 3.0.
 License URL: https://www.gnu.org/licenses/gpl-3.0.html
 
 sample-avatar.svg
+sample-avatar-white.svg
 sample-icon.svg
 sample-image.svg
