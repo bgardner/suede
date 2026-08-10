@@ -43,24 +43,24 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(to top, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
-					"name": "Fade Up",
-					"slug": "fade-up"
-				},
-				{
 					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
 					"name": "Fade Down",
 					"slug": "fade-down"
 				},
 				{
-					"gradient": "linear-gradient(var(--wp--preset--color--white) 50%, var(--wp--preset--color--black) 50%)",
-					"name": "White to Black",
-					"slug": "white-black"
+					"gradient": "linear-gradient(to top, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
+					"name": "Fade Up",
+					"slug": "fade-up"
 				},
 				{
-					"gradient": "linear-gradient(var(--wp--preset--color--black) 50%, var(--wp--preset--color--white) 50%)",
-					"name": "Black to Base",
-					"slug": "black-white"
+					"gradient": "linear-gradient(to right, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black) 25%, var(--wp--preset--color--black-50) 100%)",
+					"name": "Fade Right",
+					"slug": "fade-right"
+				},
+				{
+					"gradient": "linear-gradient(to left, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black) 25%, var(--wp--preset--color--black-50) 100%)",
+					"name": "Fade Left",
+					"slug": "fade-left"
 				}
 			],
 			"palette": [
