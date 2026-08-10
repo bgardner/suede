@@ -32,7 +32,7 @@
 			<h2 class="wp-block-heading" style="font-size:48px"><?php echo esc_html__( 'Built for authority, designed with restraint.', 'suede' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"className":"is-style-balanced","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|black-60"}}}},"textColor":"black-60"} -->
-			<p class="is-style-balanced has-black-60-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--20)"><?php echo esc_html__( 'Rooted in simplicity and crafted with purpose, Suede provides a strong foundation centered on authority and presence.', 'suede' ); ?></p>
+			<p class="is-style-balanced has-black-60-color has-text-color has-link-color" style="margin-top:var(--wp--preset--spacing--20)"><?php echo esc_html__( 'Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">

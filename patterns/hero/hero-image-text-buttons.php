@@ -16,7 +16,7 @@
 		<h1 class="wp-block-heading has-text-align-center" style="font-size:48px"><?php echo esc_html__( 'Meet Suede.', 'suede' ); ?></h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"},"elements":{"link":{"color":{"text":"var:preset|color|black-60"}}}},"textColor":"black-60"} -->
-		<p class="has-text-align-center is-style-balanced has-black-60-color has-text-color has-link-color"><?php echo esc_html__( 'Rooted in simplicity and crafted with purpose, Suede provides a strong foundation centered on authority and presence.', 'suede' ); ?></p>
+		<p class="has-text-align-center is-style-balanced has-black-60-color has-text-color has-link-color"><?php echo esc_html__( 'Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.', 'suede' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
