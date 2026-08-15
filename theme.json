@@ -91,7 +91,7 @@
 		"shadow": {
 			"defaultPresets": false,
 			"presets": [
-				{ "name": "Soft", "shadow": "0 0 5px rgba(0, 0, 0, 0.1)", "slug": "soft" },
+				{ "name": "Soft", "shadow": "0 0 5px var(--wp--preset--color--black-10)", "slug": "soft" },
 				{ "name": "Solid", "shadow": "8px 8px 0 var(--wp--preset--color--accent)", "slug": "solid" },
 				{ "name": "Subtle", "shadow": "12px 12px 0 var(--wp--preset--color--accent-20)", "slug": "subtle" }
 			]
