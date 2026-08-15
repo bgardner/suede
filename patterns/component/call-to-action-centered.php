@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call to action with text, buttons
- * Slug: suede/call-to-action-stacked
+ * Slug: suede/call-to-action-centered
  * Categories: suede-component
  */
 ?>
