@@ -22,14 +22,17 @@ function suede_setup() {
 }
 add_action( 'after_setup_theme', 'suede_setup' );
 
-function suede_enqueue_assets() {
+function suede_enqueue_styles() {
 	wp_enqueue_style(
 		'suede',
 		get_template_directory_uri() . '/style.css',
 		[],
 		suede_version()
 	);
+}
+add_action( 'wp_enqueue_scripts', 'suede_enqueue_styles' );
 
+function suede_enqueue_scroll_script() {
 	wp_enqueue_script(
 		'suede-scroll',
 		get_template_directory_uri() . '/assets/js/scroll.js',
@@ -38,4 +41,4 @@ function suede_enqueue_assets() {
 		true
 	);
 }
-add_action( 'wp_enqueue_scripts', 'suede_enqueue_assets' );
+add_action( 'wp_enqueue_scripts', 'suede_enqueue_scroll_script' );
