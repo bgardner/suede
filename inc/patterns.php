@@ -12,6 +12,7 @@ function suede_register_pattern_categories() {
 		'footer'    => __( 'Footer', 'suede' ),
 		'header'    => __( 'Header', 'suede' ),
 		'hero'      => __( 'Hero', 'suede' ),
+		'theme'     => __( 'Theme', 'suede' ),
 	];
 
 	foreach ( $categories as $slug => $label ) {
