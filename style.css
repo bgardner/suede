@@ -249,14 +249,11 @@ input[type="radio"] {
 
 	/* Header */
 
-	.site-header {
+	.scroll-reveal .site-header {
 		position: sticky;
 		top: 0;
-		z-index: 1000;
-	}
-
-	.scroll-reveal .site-header {
 		transition: transform var(--suede-motion-slow) var(--suede-motion-ease);
+		z-index: 1000;
 	}
 
 	.scroll-reveal body.scroll-down .site-header {
