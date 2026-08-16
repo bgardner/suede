@@ -5,6 +5,9 @@
  * @package Suede
  */
 
+/**
+ * Register block pattern categories.
+ */
 function suede_register_pattern_categories() {
 	$categories = [
 		'component' => __( 'Component', 'suede' ),

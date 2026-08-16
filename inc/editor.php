@@ -5,6 +5,9 @@
  * @package Suede
  */
 
+/**
+ * Register block style variations.
+ */
 function suede_register_block_styles() {
 	$block_styles = [
 		'core/columns' => [
@@ -63,5 +66,4 @@ function suede_register_block_styles() {
 		}
 	}
 }
-
 add_action( 'init', 'suede_register_block_styles' );
