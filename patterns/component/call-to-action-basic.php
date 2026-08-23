@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull has-white-color has-base-color has-black-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"960px"}},"fontSize":"xx-large"} -->
-		<p class="is-style-balanced has-xx-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.', 'suede' ); ?></p>
+		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"960px"}},"fontSize":"large"} -->
+		<p class="is-style-balanced has-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.', 'suede' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
