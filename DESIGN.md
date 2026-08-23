@@ -43,7 +43,9 @@ Use uppercase text, **0.05em** letter spacing, and medium weight primarily for s
 
 ### Color
 
-Build primarily with **black (`#000000`)** and **white (`#ffffff`)**. Use **accent gold (`#aa6600`)** deliberately for emphasis, interaction, rules, borders, and small moments of identity rather than as a dominant field color by default.
+Build primarily with **black (`#000000`)** and **white (`#ffffff`)**. Use **accent gold (`#aa6600`)** as the default accent, applied deliberately for emphasis, interaction, rules, borders, and small moments of identity rather than as a dominant field color.
+
+The accent color may be replaced when another color better serves the character, subject, or identity of the design. Prefer a single, purposeful accent that maintains strong contrast and preserves Suede’s restrained color system.
 
 Use opacity variants of **black (80%, 60%, 50%, 15%, 10%)**, **white (80%, 60%, 50%, 15%, 10%)**, and **accent (80%, 60%, 50%, 20%, 10%)** to establish hierarchy while preserving the core palette. Prefer tonal variation within the system over introducing unrelated grays or secondary colors.
 
