@@ -2,7 +2,7 @@
 /**
  * Title: Bold testimonial with grid of text
  * Slug: suede/testimonial-grid
- * Categories: suede-component
+ * Categories: suede-testimonial
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonials"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"black","layout":{"type":"constrained"}} -->

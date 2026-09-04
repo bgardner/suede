@@ -2,7 +2,7 @@
 /**
  * Title: Gallery with mosaic of images
  * Slug: suede/gallery-mosaic
- * Categories: suede-component
+ * Categories: suede-gallery
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Gallery"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

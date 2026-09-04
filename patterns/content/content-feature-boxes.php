@@ -2,7 +2,7 @@
 /**
  * Title: Section with content boxes
  * Slug: suede/content-feature-boxes
- * Categories: suede-component
+ * Categories: suede-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Feature Boxes"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

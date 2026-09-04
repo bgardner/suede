@@ -10,12 +10,16 @@
  */
 function suede_register_pattern_categories() {
 	$categories = [
-		'component' => __( 'Component', 'suede' ),
-		'editorial' => __( 'Editorial', 'suede' ),
-		'footer'    => __( 'Footer', 'suede' ),
-		'header'    => __( 'Header', 'suede' ),
-		'hero'      => __( 'Hero', 'suede' ),
-		'theme'     => __( 'Theme', 'suede' ),
+		'call-to-action' => __( 'Call to Action', 'suede' ),
+		'content'        => __( 'Content', 'suede' ),
+		'editorial'      => __( 'Editorial', 'suede' ),
+		'footer'         => __( 'Footer', 'suede' ),
+		'gallery'        => __( 'Gallery', 'suede' ),
+		'header'         => __( 'Header', 'suede' ),
+		'hero'           => __( 'Hero', 'suede' ),
+		'pricing'        => __( 'Pricing', 'suede' ),
+		'testimonial'    => __( 'Testimonial', 'suede' ),
+		'theme'          => __( 'Theme', 'suede' ),
 	];
 
 	foreach ( $categories as $slug => $label ) {

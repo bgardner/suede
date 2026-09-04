@@ -2,7 +2,7 @@
 /**
  * Title: Section with image, buttons, social icons
  * Slug: suede/content-links
- * Categories: suede-component
+ * Categories: suede-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Links"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"dimensions":{"minHeight":"100vh"},"border":{"width":"1px"}},"backgroundColor":"white","borderColor":"black-10","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->

@@ -2,7 +2,7 @@
 /**
  * Title: Single testimonial with text
  * Slug: suede/testimonial-bold
- * Categories: suede-component
+ * Categories: suede-testimonial
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonial"},"align":"full","style":{"spacing":{"margin":{"top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"black","textColor":"white","layout":{"type":"constrained","wideSize":"1280px"}} -->

@@ -2,7 +2,7 @@
 /**
  * Title: Call to action with text, buttons
  * Slug: suede/call-to-action-centered
- * Categories: suede-component
+ * Categories: suede-call-to-action
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Call to Action"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"black","textColor":"white","layout":{"type":"constrained"}} -->
