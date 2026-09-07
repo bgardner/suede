@@ -35,6 +35,8 @@ A secondary or accent typeface may also be introduced when it strengthens the ch
 
 Set body text at **18px**, **400** weight, with generous line height. Headings use **500** weight with tight line height and no added letter spacing. Use **600** weight selectively for strong emphasis rather than as a default display weight.
 
+Apply font smoothing to improve typographic rendering, particularly for light text on dark backgrounds. Use `-webkit-font-smoothing: antialiased` and `-moz-osx-font-smoothing: grayscale` where supported.
+
 Use Suede’s type scale as a controlled hierarchy: **12, 14, 16, 18, 20, 24, 30, 36, 48, and 60px**. Sizes above 18px may scale fluidly with the viewport. Avoid arbitrary intermediate sizes when the existing scale can establish the relationship.
 
 Large type should feel architectural when the composition calls for presence, but scale should always communicate hierarchy rather than decoration. Keep supporting copy visibly subordinate.
@@ -43,11 +45,11 @@ Use uppercase text, **0.05em** letter spacing, and medium weight primarily for s
 
 ### Color
 
-Build primarily with **black (`#000000`)** and **white (`#ffffff`)**. Use **accent gold (`#aa6600`)** as the default accent, applied deliberately for emphasis, interaction, rules, borders, and small moments of identity rather than as a dominant field color.
+Build primarily with black (`#000000`) and white (`#ffffff`). Use accent gold (`#aa6600`) as the default accent, applied deliberately for emphasis, interaction, rules, borders, and small moments of identity rather than as a dominant field color.
 
 The accent color may be replaced when another color better serves the character, subject, or identity of the design. Prefer a single, purposeful accent that maintains strong contrast and preserves Suede’s restrained color system.
 
-Use opacity variants of **black (80%, 60%, 50%, 15%, 10%)**, **white (80%, 60%, 50%, 15%, 10%)**, and **accent (80%, 60%, 50%, 20%, 10%)** to establish hierarchy while preserving the core palette. Prefer tonal variation within the system over introducing unrelated grays or secondary colors.
+Use opacity variants of black (80%, 60%, 50%, 15%, 10%), white (80%, 60%, 50%, 15%, 10%), and accent (80%, 60%, 50%, 20%, 10%) to establish hierarchy while preserving the core palette. Prefer tonal variation within the system over introducing unrelated grays or secondary colors.
 
 Maintain strong contrast for primary content. Softer opacity values are appropriate for secondary text, borders, backgrounds, overlays, and subtle depth, but should not weaken legibility.
 
@@ -93,7 +95,7 @@ Interactive feedback should be immediate but quiet. Prefer color, border, or res
 
 ### Iconography
 
-Use **Google Material Symbols Sharp** for interface and supporting iconography, with a **200 weight** and **48px optical size** to maintain Suede’s refined, restrained visual character.
+Use **Google Material Symbols Sharp** for interface and supporting iconography, with a weight of **200** and an optical size of **48px** to maintain Suede’s refined, restrained visual character.
 
 Use icons selectively and at purposeful scale. They should clarify meaning, navigation, or interaction rather than serve as decoration. Prefer simple, recognizable symbols and maintain consistent weight and visual treatment throughout an experience.
 
@@ -101,7 +103,7 @@ Use icons selectively and at purposeful scale. They should clarify meaning, navi
 
 Imagery should reinforce the subject, character, and purpose of the experience while carrying meaningful visual weight within the composition.
 
-Prefer fewer, substantial images over small decorative imagery. When imagery is appropriate for homepage hero sections, prefer a full-width Cover block with a strong visual. When text overlays the image, consider Suede’s **Fade Down** gradient to support legibility and atmosphere.
+Prefer fewer, substantial images over small decorative imagery. Homepage hero imagery should carry meaningful visual weight and may be full-width, contained, layered, or integrated into the composition. When using a full-width Cover block with overlaid text, consider Suede’s **Fade Down** gradient to support legibility and atmosphere.
 
 When generating imagery, favor natural, refined visuals with restrained color and tonal qualities that complement Suede’s visual system rather than compete with it.
 
@@ -123,4 +125,4 @@ Respect reduced-motion preferences. Motion is an enhancement to hierarchy and in
 
 ## Application
 
-Treat these specifications as constraints, not templates. Use them to preserve Suede’s visual character across different subjects and media, but depart from them when the content, context, or medium clearly benefits from doing so. Any deviation should strengthen the composition rather than add novelty.
+Treat these specifications as constraints, not templates. Use them to preserve Suede’s visual character across different subjects and media without forcing compositions into a predetermined aesthetic. Interpret the system according to the content, context, and medium. Variation should strengthen the composition rather than add novelty.
