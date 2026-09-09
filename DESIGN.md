@@ -4,12 +4,11 @@ Suede is a refined WordPress design system centered on authority and presence. I
 
 ## Principles
 
-* Restraint does not mean minimalism. Suede should feel refined and intentional, never sparse, timid, or under-designed.
-* Prefer fewer, stronger ideas. Give important elements enough scale, space, contrast, and visual weight to establish presence.
-* Use typography, imagery, spacing, and contrast to create clear hierarchy before adding decoration.
-* Use generous space to create rhythm and focus, but do not create emptiness for its own sake.
-* Repetition creates coherence. Introduce variation when it serves the content, not simply to make sections look different.
-* Suede’s design capabilities are a vocabulary, not a checklist. Use them selectively.
+* Prefer fewer, stronger ideas. Decide what deserves attention and give it scale, weight, and room. Remove anything that weakens the message.
+* Hierarchy before decoration. Establish priority through type, spacing, imagery, and contrast. Let those elements do the work before adding more.
+* Space makes things matter. Give content enough room to breathe. Apply it with genuine purpose, not simply for visual effect or decoration.
+* Repetition creates coherence. Use consistent patterns to build familiarity and rhythm. Introduce variation only when the content calls for it.
+* Restraint, not minimalism. Be selective while preserving balance, character, and expression. Compositions should feel confident and complete.
 
 ## Composition
 
