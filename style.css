@@ -264,14 +264,6 @@ input[type="radio"] {
 		transform: translateY(0);
 	}
 
-	/* Text */
-	
-	.vertical-text {
-		transform: rotate(180deg);
-		white-space: nowrap;
-		writing-mode: vertical-rl;
-	}
-
 }
 
 @media (min-width: 600px) and (prefers-reduced-motion: reduce) {
