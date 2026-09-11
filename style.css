@@ -256,6 +256,12 @@ input[type="radio"] {
 		z-index: 1000;
 	}
 
+	.scroll-reveal .site-header:has(.no-scroll-reveal) {
+		position: static;
+		transform: none;
+		transition: none;
+	}
+
 	.scroll-reveal body.scroll-down .site-header {
 		transform: translateY(-100%);
 	}
