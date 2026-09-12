@@ -1,0 +1,96 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Display",
+	"description": "An expressive typography variation with expanded and condensed widths.",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans, sans-serif",
+					"name": "Google Sans",
+					"slug": "google-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Condensed",
+							"fontStretch": "85%",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Condensed",
+							"fontStretch": "85%",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans Condensed, sans-serif",
+					"name": "Google Sans Condensed",
+					"slug": "google-sans-condensed"
+				},
+				{
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Expanded",
+							"fontStretch": "110%",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans Expanded",
+							"fontStretch": "110%",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+							]
+						}
+					],
+					"fontFamily": "Google Sans Expanded, sans-serif",
+					"name": "Google Sans Expanded",
+					"slug": "google-sans-expanded"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--google-sans)"
+		}
+	}
+}
