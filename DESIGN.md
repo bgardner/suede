@@ -2,6 +2,8 @@
 
 Suede is a refined WordPress design system centered on authority and presence. Its visual language favors strong typography, generous space, deliberate contrast, purposeful imagery, and confident composition.
 
+Suede isn’t designed around a collection of styles. It’s designed around a system of decisions.
+
 ## Principles
 
 * Prefer fewer, stronger ideas. Decide what deserves attention and give it scale, weight, and room. Remove anything that weakens the message.
@@ -28,7 +30,13 @@ Prefer subtraction. Before adding an element, determine whether hierarchy, typog
 
 ### Typography
 
-Use **Google Sans Flex** as the primary typeface. Its variable width may be used expressively, with **110% expanded** or **85% condensed** treatments creating contrast while preserving typographic continuity. Use width selectively rather than as a default treatment.
+Use **Google Sans Flex** as the primary typeface. Standard width is the default for most typography. Use variable width selectively to create contrast while preserving typographic continuity.
+
+Use **110% expanded** for large editorial statements, hero typography, numerals, pull quotes, and other moments that benefit from greater presence and horizontal scale.
+
+Use **85% condensed** when density or verticality strengthens the composition, particularly for oversized headlines, section markers, narrow compositions, or other situations where more typographic scale is needed within limited horizontal space.
+
+Expanded and condensed widths are expressive tools, not alternate defaults. Use them when the composition benefits from a deliberate change in proportion, not simply to introduce variety.
 
 A secondary or accent typeface may also be introduced when it strengthens the character, subject, or editorial quality of the design. Use it selectively and maintain clear typographic hierarchy rather than creating variety for its own sake.
 
@@ -56,7 +64,11 @@ Suede’s directional gradients are functional rather than decorative. Use **Fad
 
 ### Layout and spacing
 
-Treat **640px** as the primary reading width and **1280px** as the wide composition width. Long-form text should generally remain within the reading measure, while imagery, covers, grids, and more expressive compositions may use the wider canvas.
+Treat **1280px** as the primary composition width for page sections, including full-width sections with black, white, image, or other background treatments. Section backgrounds may span the full viewport, while their inner content should generally sit within a centered container up to **1280px** wide.
+
+Treat **640px** as the primary reading measure for long-form text, not as the default width for an entire section. Text-heavy content may remain within this narrower measure while columns, grids, imagery, navigation, and mixed-media compositions should use the wider **1280px** canvas when appropriate.
+
+Do not constrain multi-column or visually compositional sections to the 640px reading measure. Preserve enough horizontal space for columns to maintain proportion, hierarchy, and intentional negative space.
 
 Use the spacing scale **20, 30, 40, 60, 80, and 100px**. Favor these values over arbitrary spacing so relationships remain coherent across the experience.
 
