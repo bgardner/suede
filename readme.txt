@@ -51,5 +51,5 @@ License URL: https://www.gnu.org/licenses/gpl-3.0.html
 
 sample-avatar.svg
 sample-avatar-white.svg
-sample-icon.svg
 sample-image.svg
+suede-mark.svg
