@@ -7,10 +7,10 @@ Suede isn’t designed around a collection of styles. It’s designed around a s
 ## Principles
 
 * Prefer fewer, stronger ideas. Decide what deserves attention and give it scale, weight, and room. Remove anything that weakens the message.
-* Hierarchy before decoration. Establish priority through type, spacing, imagery, and contrast. Let those elements do the work before adding more.
-* Space makes things matter. Give content enough room to breathe. Apply it with genuine purpose, not simply for visual effect or decoration.
+* Hierarchy before decoration. Establish priority through type, spacing, form, and contrast. Let those elements work before adding anything more.
+* Space makes things matter. Give content enough room to breathe. Apply it with true purpose, not just for visual effect or unnecessary decoration.
 * Repetition creates coherence. Use consistent patterns to build familiarity and rhythm. Introduce variation only when the content calls for it.
-* Restraint, not minimalism. Be selective while preserving balance, character, and expression. Compositions should feel confident and complete.
+* Restraint, not minimalism. Be selective while preserving balance, character, and depth. Compositions should always feel confident and complete.
 
 ## Composition
 
