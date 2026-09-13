@@ -87,6 +87,13 @@
 		"custom": {
 			"lineHeight": { "x-small": 1, "small": 1.25, "medium": 1.5, "large": 1.75, "x-large": 2 }
 		},
+		"dimensions": {
+			"dimensionSizes": [
+				{ "name": "Content", "slug": "content", "size": "640px" },
+				{ "name": "Mid", "slug": "mid", "size": "960px" },
+				{ "name": "Wide", "slug": "wide", "size": "1280px" }
+			]
+		},
 		"layout": { "contentSize": "640px", "wideSize": "1280px" },
 		"shadow": {
 			"defaultPresets": false,
