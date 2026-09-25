@@ -399,8 +399,7 @@
 					"width": "0 0 0 4px"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--black-10)",
-					"text": "var(--wp--preset--color--black)"
+					"background": "var(--wp--preset--color--black-10)"
 				},
 				"css": "& p { margin: 0; }",
 				"elements": {
@@ -415,7 +414,6 @@
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"letterSpacing": "0.05em",
-							"lineHeight": "var(--wp--custom--line-height--medium)",
 							"textTransform": "uppercase"
 						}
 					}
@@ -437,7 +435,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontWeight": "500",
-					"lineHeight": "var(--wp--custom--line-height--small)"
+					"lineHeight": "var(--wp--custom--line-height--medium)"
 				}
 			},
 			"core/search": {
