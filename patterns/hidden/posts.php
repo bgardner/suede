@@ -19,7 +19,7 @@
 					<!-- wp:pattern {"slug":"suede/post-meta"} /-->
 				</header>
 				<!-- /wp:group -->
-				<!-- wp:post-excerpt {"moreText":"Read More"} /-->
+				<!-- wp:post-excerpt {"moreText":"Read more"} /-->
 			</article>
 			<!-- /wp:group -->
 		<!-- /wp:post-template -->

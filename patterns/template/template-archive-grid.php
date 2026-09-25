@@ -31,7 +31,7 @@
 							<!-- wp:pattern {"slug":"suede/post-meta"} /-->
 						</header>
 						<!-- /wp:group -->
-						<!-- wp:post-excerpt {"moreText":"Read More →","excerptLength":20,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"x-small"} /-->
+						<!-- wp:post-excerpt {"moreText":"Read more →","excerptLength":20,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"x-small"} /-->
 					</div>
 					<!-- /wp:group -->
 				</article>
