@@ -207,7 +207,8 @@
 				}
 			]
 		},
-		"useRootPaddingAwareAlignments": true
+		"useRootPaddingAwareAlignments": true,
+		"viewport": { "mobile": "600px", "tablet": "782px" }
 	},
 	"styles": {
 		"blocks": {
