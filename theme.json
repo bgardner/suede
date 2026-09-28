@@ -99,6 +99,7 @@
 			"defaultPresets": false,
 			"presets": [
 				{ "name": "Soft", "shadow": "0 0 5px var(--wp--preset--color--black-10)", "slug": "soft" },
+				{ "name": "Strong", "shadow": "0 20px 40px var(--wp--preset--color--black-10)", "slug": "strong" },
 				{ "name": "Solid", "shadow": "8px 8px 0 var(--wp--preset--color--accent)", "slug": "solid" },
 				{ "name": "Subtle", "shadow": "12px 12px 0 var(--wp--preset--color--accent-20)", "slug": "subtle" }
 			]
