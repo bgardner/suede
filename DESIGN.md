@@ -112,7 +112,7 @@ Treat shadows as accents, not ambient decoration. Suede’s shadow vocabulary in
 
 Text links should remain visibly identifiable, normally through an underline. Hover states may shift toward the accent color while preserving clarity and contrast.
 
-Primary buttons use the accent color, strong rectangular geometry, uppercase small text, medium weight, and generous padding. Outline buttons should retain the same visual discipline rather than becoming visually lighter in hierarchy than intended.
+Primary buttons use the accent color with white, uppercase small text, medium weight, and generous padding. Outline buttons use a transparent background with an accent border and text. On hover, filled buttons become transparent with an accent border and text, while outline buttons become accent-filled with white text. Choose square, moderate, or rounded corner geometry according to the composition and apply it consistently within the experience.
 
 Interactive feedback should be immediate but quiet. Prefer color, border, or restrained transform changes over elaborate effects. Focus states must remain visible and should not be removed for aesthetic reasons.
 
