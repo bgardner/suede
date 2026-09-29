@@ -12,6 +12,18 @@ Suede isn’t designed around a collection of styles. It’s designed around a s
 * Repetition creates coherence. Use consistent patterns to build familiarity and rhythm. Introduce variation only when the content calls for it.
 * Restraint, not minimalism. Be selective while preserving balance, character, and depth. Compositions should always feel confident and complete.
 
+## Visual thesis
+
+Before designing, establish a clear visual thesis appropriate to the subject, audience, content, location, and purpose.
+
+Determine what should dominate, what should create contrast or tension, what should repeat, where the composition should change visual mode, and what can be removed.
+
+Use these decisions to guide the entire composition rather than designing one section at a time.
+
+Establish a visual world rather than treating a neutral canvas as the default. Decide how color fields, imagery, typography, and negative space should define the atmosphere of the experience.
+
+A composition may remain predominantly light, predominantly dark, image-led, or move between visual modes. Make that choice deliberately according to the subject and visual thesis.
+
 ## Composition
 
 Every composition should have a clear visual priority. Establish what deserves attention first, then make supporting elements visibly subordinate.
@@ -21,6 +33,8 @@ Use controlled contrast to create tension and hierarchy. Pair large with small, 
 Design relationships rather than assembling components. Begin with the visual relationship the content should create, then introduce only the elements needed to construct it.
 
 Let important elements carry meaningful visual weight. Typography and imagery may become architectural elements within a composition. When something deserves presence, give it sufficient scale and territory.
+
+Allow important elements to extend beyond the primary content grid, overlap, layer, or share compositional space when doing so strengthens hierarchy, atmosphere, or visual relationships. Do not constrain every section, image, or typographic element to the same container.
 
 Create rhythm through repetition and change. Repeat structures within a composition to establish order, then vary composition between sections when the content calls for a change in emphasis, pace, or mode.
 
@@ -52,9 +66,7 @@ Use uppercase text, **0.05em** letter spacing, and medium weight primarily for s
 
 ### Color
 
-Build primarily with black (`#000000`) and white (`#ffffff`). Use accent gold (`#aa6600`) as the default accent, applied deliberately for emphasis, interaction, rules, borders, and small moments of identity rather than as a dominant field color.
-
-The accent color may be replaced when another color better serves the character, subject, or identity of the design. Prefer a single, purposeful accent that maintains strong contrast and preserves Suede’s restrained color system.
+Build primarily with black (`#000000`) and white (`#ffffff`). Use accent gold (`#aa6600`) for emphasis, interaction, rules, borders, and small moments of identity rather than as a dominant field color.
 
 Use opacity variants of black (80%, 60%, 50%, 15%, 10%), white (80%, 60%, 50%, 15%, 10%), and accent (80%, 60%, 50%, 20%, 10%) to establish hierarchy while preserving the core palette. Prefer tonal variation within the system over introducing unrelated grays or secondary colors.
 
@@ -116,7 +128,7 @@ Imagery should reinforce the subject, character, and purpose of the experience w
 
 Prefer fewer, substantial images over small decorative imagery. Homepage hero imagery should carry meaningful visual weight and may be full-width, contained, layered, or integrated into the composition. When using a full-width Cover block with overlaid text, consider Suede’s **Fade Down** gradient to support legibility and atmosphere.
 
-When generating imagery, favor natural, refined visuals with restrained color and tonal qualities that complement Suede’s visual system rather than compete with it.
+When generating imagery, favor restrained, grounded color and tonal qualities that complement Suede’s visual system rather than compete with it.
 
 Choose imagery, cropping, focal point, scale, and positioning according to the composition. Crop for the composition, not merely to keep the subject visible. Do not use imagery merely to fill space.
 
