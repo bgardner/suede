@@ -40,7 +40,7 @@ Expanded and condensed widths are expressive tools, not alternate defaults. Use 
 
 A secondary or accent typeface may also be introduced when it strengthens the character, subject, or editorial quality of the design. Use it selectively and maintain clear typographic hierarchy rather than creating variety for its own sake.
 
-Set body text at **18px**, **400** weight, with generous line height. Headings use **500** weight with tight line height and no added letter spacing. Use **600** weight selectively for strong emphasis rather than as a default display weight.
+Set body text at **18px**, **400** weight, with a **1.75 line height**. Headings use **500** weight with a **1.0 line height** and no added letter spacing. Use **600** weight selectively for strong emphasis rather than as a default display weight.
 
 Apply font smoothing to improve typographic rendering, particularly for light text on dark backgrounds. Use `-webkit-font-smoothing: antialiased` and `-moz-osx-font-smoothing: grayscale` where supported.
 
