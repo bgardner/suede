@@ -303,12 +303,6 @@
 					"textTransform": "uppercase"
 				}
 			},
-			"core/navigation": {
-				"css": "& .wp-block-navigation-item:hover { color: var(--wp--preset--color--accent); }",
-				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--20)"
-				}
-			},
 			"core/navigation-link": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xxx-small)",
