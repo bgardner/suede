@@ -21,7 +21,6 @@ function suede_register_block_styles() {
 			'eyebrow'  => __( 'Eyebrow', 'suede' ),
 		],
 		'core/image' => [
-			'corners' => __( 'Corners', 'suede' ),
 			'zoom'    => __( 'Zoom', 'suede' ),
 		],
 		'core/list' => [
