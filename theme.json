@@ -457,18 +457,15 @@
 					"link": {
 						"color": {
 							"text": "currentColor"
-						},
-						"typography": {
-							"letterSpacing": "0.05em",
-							"textDecoration": "none",
-							"textTransform": "uppercase"
 						}
 					}
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)",
 					"fontWeight": "500",
-					"lineHeight": "var(--wp--custom--line-height--x-small)"
+					"letterSpacing": "0.05em",
+					"lineHeight": "var(--wp--custom--line-height--x-small)",
+					"textTransform": "uppercase"
 				},
 				"variations": {
 					"eyebrow": {
