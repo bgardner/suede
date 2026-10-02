@@ -557,6 +557,7 @@
 				}
 			},
 			"heading": {
+				"css": "{ scroll-margin-top: var(--wp--preset--spacing--30) }",
 				"typography": {
 					"fontWeight": "500",
 					"letterSpacing": "0",
