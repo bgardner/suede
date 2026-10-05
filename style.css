@@ -128,7 +128,6 @@ input[type="radio"] {
 	background-color: var(--wp--preset--color--black) !important;
 	border-color: var(--wp--preset--color--white-15) !important;
 	color: var(--wp--preset--color--white) !important;
-	left: -16px !important;
 	min-width: 180px !important;
 	padding: 10px !important;
 }
