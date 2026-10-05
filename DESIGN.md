@@ -130,9 +130,9 @@ Treat shadows as accents, not ambient decoration. Suede’s shadow vocabulary in
 
 Inline text links should remain visibly identifiable, normally through an underline. Navigation may use a consistent treatment appropriate to its context, with clear current and interactive states. Hover may shift toward the accent color where contrast remains readable.
 
-On compatible backgrounds, primary buttons use accent gold with white, small uppercase text, medium weight, and generous padding. Outline buttons use a transparent background with an accent border and text. Filled buttons may become transparent with an accent border and text on hover; outline buttons may become accent-filled with white text.
+Primary buttons use the accent color with white, uppercase small text, medium weight, and generous padding. Outline buttons use a transparent background with an accent border and text. On hover, filled buttons become transparent with an accent border and text, while outline buttons become accent-filled with white text. Choose square, moderate, or rounded corner geometry according to the composition and apply it consistently within the experience.
 
-Check each button state against its actual background. On dark or image-led surfaces, adapt foreground, fill, or border using the core palette when the default treatment loses clarity. Keep primary and secondary actions distinguishable and corner geometry consistent.
+Check each button state against its actual background. On dark or image-led surfaces where the default treatment loses clarity, use black or white from the core palette to preserve contrast while retaining the same typography, padding, hover behavior, and corner geometry. Keep primary and secondary actions distinguishable.
 
 Interactive feedback should be immediate but quiet. Prefer color and border changes; use restrained transforms only when they clarify interaction. Provide visible focus states and distinct active, selected, or disabled states where applicable. Do not make an essential action discoverable only on hover.
 
