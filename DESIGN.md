@@ -1,6 +1,6 @@
 # Suede
 
-Suede is a refined WordPress design system centered on authority and presence. Its visual language favors strong typography, generous space, deliberate contrast, purposeful imagery, and confident composition.
+Suede is a refined design system centered on authority and presence, expressed through WordPress and other digital media. Its visual language favors strong typography, generous space, deliberate contrast, purposeful imagery, and confident composition.
 
 Suede isn’t designed around a collection of styles. It’s designed around a system of decisions.
 
@@ -12,140 +12,170 @@ Suede isn’t designed around a collection of styles. It’s designed around a s
 * Repetition creates coherence. Use consistent patterns to build familiarity and rhythm. Introduce variation only when the content calls for it.
 * Restraint, not minimalism. Be selective while preserving balance, character, and depth. Compositions should always feel confident and complete.
 
+## How to apply this system
+
+Use this file to guide design decisions, including when generating or modifying an experience with AI. Apply explicit project requirements first, then Suede’s principles, then its defaults. Use expressive choices to adapt the defaults while preserving hierarchy, coherence, legibility, and purpose.
+
+Treat the primary typeface, typography settings, palette, widths, spacing scale, and interface treatments as defaults. Expanded and condensed typography, accent typefaces, oversized display type, overlap, rounded geometry, and changes in visual mode are deliberate choices rather than automatic additions. Introduce them only when they serve a specific content or compositional need.
+
+When modifying an existing experience, preserve its established decisions unless the request requires changing them. Resolve unspecified details through the existing system before introducing new treatments. Do not turn a local change into an unsolicited redesign.
+
+This file defines design intent, not proof of an implementation. For WordPress work, inspect `theme.json`, style variations, registered block styles, patterns, and relevant assets before using named capabilities. Reuse existing presets and native controls where they support the intended result. Do not invent preset slugs, block styles, assets, or supported controls. If implementation differs from this guidance, identify the difference rather than silently changing the design specification or claiming a capability exists.
+
 ## Visual thesis
 
-Before designing, establish a clear visual thesis appropriate to the subject, audience, content, location, and purpose.
+Before building a new composition, establish a clear visual thesis appropriate to the subject, audience, content, location, and purpose. For an existing composition, identify its thesis before making changes.
 
-Determine what should dominate, what should create contrast or tension, what should repeat, where the composition should change visual mode, and what can be removed.
+Determine what should dominate, what should support it, what should create contrast or tension, what should repeat, where the composition should change visual mode, and what can be removed. Form a brief internal plan for these relationships before implementing sections. State the rationale when it helps review the work; do not require a separate approval step for routine design decisions.
 
-Use these decisions to guide the entire composition rather than designing one section at a time.
+Establish a visual world rather than treating a neutral canvas as the default. Decide how color fields, imagery, typography, and negative space should define the atmosphere of the experience. A composition may remain predominantly light, predominantly dark, image-led, or move between visual modes. Choose according to the subject and purpose rather than alternating treatments for variety.
 
-Establish a visual world rather than treating a neutral canvas as the default. Decide how color fields, imagery, typography, and negative space should define the atmosphere of the experience.
-
-A composition may remain predominantly light, predominantly dark, image-led, or move between visual modes. Make that choice deliberately according to the subject and visual thesis.
+Centered layouts, card grids, split compositions, and repeated section structures are valid when the content benefits from them. Do not select them automatically because they are familiar or easy to generate. Restraint does not require small typography, empty sections, or uniformly quiet composition.
 
 ## Composition
 
-Every composition should have a clear visual priority. Establish what deserves attention first, then make supporting elements visibly subordinate.
+Every composition should have a clear visual priority. Establish what deserves attention first, then make supporting elements visibly subordinate. Where the experience requires action, make the primary next step easy to identify without giving every link equal prominence.
 
 Use controlled contrast to create tension and hierarchy. Pair large with small, dense with open, image with type, and dominant with quiet. Restraint should limit competing ideas, not their scale.
 
-Design relationships rather than assembling components. Begin with the visual relationship the content should create, then introduce only the elements needed to construct it.
+Design relationships rather than assembling components. Begin with the relationship the content should create, then introduce only the elements needed to construct it. Do not place content in cards or bordered containers unless grouping, comparison, or interaction benefits from that structure.
 
-Let important elements carry meaningful visual weight. Typography and imagery may become architectural elements within a composition. When something deserves presence, give it sufficient scale and territory.
+Let important elements carry meaningful visual weight. Typography and imagery may become architectural elements within a composition. When something deserves presence, give it sufficient scale and territory while keeping supporting content readable and useful.
 
-Allow important elements to extend beyond the primary content grid, overlap, layer, or share compositional space when doing so strengthens hierarchy, atmosphere, or visual relationships. Do not constrain every section, image, or typographic element to the same container.
+Allow elements to extend beyond the primary grid, overlap, layer, or share compositional space when doing so strengthens hierarchy, atmosphere, or visual relationships. Preserve legibility, access to controls, and a sensible reading order. Expressive positioning must have a workable narrow-screen treatment and must not produce unintended horizontal scrolling.
 
-Create rhythm through repetition and change. Repeat structures within a composition to establish order, then vary composition between sections when the content calls for a change in emphasis, pace, or mode.
+Create rhythm through repetition and change. Repeat structures to establish order, then vary them when the content requires a change in emphasis, pace, or mode. Avoid both mechanically identical sections and a new visual treatment for every section.
 
-Prefer subtraction. Before adding an element, determine whether hierarchy, typography, space, imagery, or contrast can accomplish the same purpose.
+Before adding an element, determine whether hierarchy, typography, space, imagery, or contrast can accomplish the same purpose.
 
 ## Design system
 
 ### Typography
 
-Use **Google Sans Flex** as the primary typeface. Standard width is the default for most typography. Use variable width selectively to create contrast while preserving typographic continuity.
+Use **Google Sans Flex** as the primary typeface. Standard width is the default for body copy, navigation, controls, and most headings. Use variable width selectively to create contrast while preserving typographic continuity.
 
-Use **110% expanded** for large editorial statements, hero typography, numerals, pull quotes, and other moments that benefit from greater presence and horizontal scale.
+Use **110% expanded** for large editorial statements, hero typography, numerals, pull quotes, and moments that benefit from greater presence and horizontal scale. Use **85% condensed** when density or verticality strengthens the composition, particularly for oversized headlines, section markers, or narrow compositions.
 
-Use **85% condensed** when density or verticality strengthens the composition, particularly for oversized headlines, section markers, narrow compositions, or other situations where more typographic scale is needed within limited horizontal space.
+Expanded and condensed widths are expressive tools, not alternate defaults or remedies for poorly fitted text. Keep sustained reading copy at standard width. Choose a consistent role for each expressive width rather than switching proportions arbitrarily.
 
-Expanded and condensed widths are expressive tools, not alternate defaults. Use them when the composition benefits from a deliberate change in proportion, not simply to introduce variety.
+A secondary or accent typeface may be introduced when it strengthens the subject or editorial character. Assign it a defined role, such as display headings or quotations, and preserve the primary face for supporting typography. Do not add typefaces solely to create variety.
 
-A secondary or accent typeface may also be introduced when it strengthens the character, subject, or editorial quality of the design. Use it selectively and maintain clear typographic hierarchy rather than creating variety for its own sake.
+Set body text at **18px**, **400** weight, with a **1.75 line height**. Headings default to **500** weight with no added letter spacing. Use **1.0 line height** for display headings where the letterforms and wrapping remain clear; increase it for smaller or multiline reading headings when needed. Use **600** weight selectively for strong emphasis rather than as a default display weight.
 
-Set body text at **18px**, **400** weight, with a **1.75 line height**. Headings use **500** weight with a **1.0 line height** and no added letter spacing. Use **600** weight selectively for strong emphasis rather than as a default display weight.
+Use the type scale **12, 14, 16, 18, 20, 24, 30, 36, 48, and 60px** as the standard hierarchy. Sizes above 18px may scale fluidly with the viewport. Display type may exceed 60px when its role requires greater presence; treat this as an intentional extension, not a new default. Avoid arbitrary intermediate sizes when the existing scale establishes the relationship.
 
-Apply font smoothing to improve typographic rendering, particularly for light text on dark backgrounds. Use `-webkit-font-smoothing: antialiased` and `-moz-osx-font-smoothing: grayscale` where supported.
+Keep supporting copy visibly subordinate without shrinking essential information into metadata. Reserve the smallest sizes for brief secondary information, not sustained reading.
 
-Use Suede’s type scale as a controlled hierarchy: **12, 14, 16, 18, 20, 24, 30, 36, 48, and 60px**. Sizes above 18px may scale fluidly with the viewport. Avoid arbitrary intermediate sizes when the existing scale can establish the relationship.
+Use uppercase text, **0.05em** letter spacing, and **500** weight primarily for small navigation, labels, metadata, and eyebrows. Do not extend this treatment to long-form copy or prominent display typography.
 
-Large type should feel architectural when the composition calls for presence, but scale should always communicate hierarchy rather than decoration. Keep supporting copy visibly subordinate.
+Control wrapping through available width, type size, and balanced text where appropriate. Avoid isolated final words when they weaken the composition, but do not force desktop line breaks that become awkward on smaller screens. Keep heading semantics independent of visual size.
 
-Use uppercase text, **0.05em** letter spacing, and medium weight primarily for small navigational, label, metadata, and eyebrow treatments. Do not extend this treatment to long-form copy or prominent display typography.
+Apply `-webkit-font-smoothing: antialiased` and `-moz-osx-font-smoothing: grayscale` where supported, particularly for light text on dark backgrounds.
 
 ### Color
 
 Build primarily with black (`#000000`) and white (`#ffffff`). Use accent gold (`#aa6600`) for emphasis, interaction, rules, borders, and small moments of identity rather than as a dominant field color.
 
-Use opacity variants of black (80%, 60%, 50%, 15%, 10%), white (80%, 60%, 50%, 15%, 10%), and accent (80%, 60%, 50%, 20%, 10%) to establish hierarchy while preserving the core palette. Prefer tonal variation within the system over introducing unrelated grays or secondary colors.
+Use opacity variants of black and white (**80%, 60%, 50%, 15%, 10%**) and accent (**80%, 60%, 50%, 20%, 10%**) to establish hierarchy. Prefer tonal variation within the system over unrelated grays or secondary colors. Opacity is a compositional tool, not a guarantee of readable contrast; check the resulting color against its actual background.
 
-Maintain strong contrast for primary content. Softer opacity values are appropriate for secondary text, borders, backgrounds, overlays, and subtle depth, but should not weaken legibility.
+Maintain strong contrast for primary and secondary text. Reserve low-contrast tones for nonessential borders, backgrounds, overlays, and subtle depth. Do not assume a muted preset is suitable for text on every surface.
 
-Suede’s directional gradients are functional rather than decorative. Use **Fade Down**, **Fade Up**, **Fade Right**, or **Fade Left** when imagery needs contrast for overlaid content or when a composition benefits from controlled tonal depth. Avoid decorative gradients outside this vocabulary unless the concept clearly requires one.
+Use **Fade Down**, **Fade Up**, **Fade Right**, or **Fade Left** when imagery needs contrast for overlaid content or controlled tonal depth. Choose the direction according to the text position and image. Check legibility across the entire text area and responsive crop rather than assuming the gradient is sufficient. Introduce another gradient only when these treatments cannot meet a specific functional need.
 
 ### Layout and spacing
 
-Treat **1280px** as the primary composition width for page sections, including full-width sections with black, white, image, or other background treatments. Section backgrounds may span the full viewport, while their inner content should generally sit within a centered container up to **1280px** wide.
+Use three maximum widths according to content:
 
-Treat **640px** as the primary reading measure for long-form text, not as the default width for an entire section. Text-heavy content may remain within this narrower measure while columns, grids, imagery, navigation, and mixed-media compositions should use the wider **1280px** canvas when appropriate.
+* **640px:** Sustained reading and long-form text.
+* **960px:** Focused compositions combining text with supporting media.
+* **1280px:** Broad page compositions, navigation, grids, columns, and substantial imagery.
 
-Do not constrain multi-column or visually compositional sections to the 640px reading measure. Preserve enough horizontal space for columns to maintain proportion, hierarchy, and intentional negative space.
+Treat **1280px** as the primary composition width for page sections, not a requirement that every element fill it. Backgrounds may span the viewport while inner content generally sits within a centered container. Reading copy may retain its 640px measure within a wider composition. Do not constrain multi-column sections to the reading measure.
 
-Use the spacing scale **20, 30, 40, 60, 80, and 100px**. Favor these values over arbitrary spacing so relationships remain coherent across the experience.
+Maintain consistent horizontal page gutters using the project’s existing values. When no values exist, choose gutters from the spacing scale and reduce them deliberately as the viewport narrows. Containers must retain usable edge space before reaching their maximum width.
 
-Use smaller values to connect related elements and larger values to separate sections, ideas, or changes in visual mode. Major sections should usually receive more space than the internal relationships within them.
+Use the spacing scale **20, 30, 40, 60, 80, and 100px** for composition. Use smaller values to connect related elements and larger values to separate sections, ideas, or changes in visual mode. Major sections should usually receive more space than their internal relationships.
 
-Generous spacing is part of Suede’s character, but space must establish rhythm, focus, or hierarchy. Do not increase spacing merely to make a composition feel more luxurious or minimal.
+Compact interface gaps, icon-to-label spacing, and control padding may require values below 20px. Reuse the project’s existing compact spacing values; where none exist, establish a small consistent set rather than choosing a new value for each element.
+
+Space must establish rhythm, focus, or hierarchy. Do not increase it merely to make a composition feel luxurious or minimal. Reduce large spacing on smaller screens while preserving the distinction between related content and separate sections.
 
 ### Responsive behavior
 
-Preserve hierarchy as the canvas narrows. Allow type, spacing, imagery, and composition to scale or simplify deliberately rather than treating responsive design as a mechanical collapse of the desktop layout.
+Preserve hierarchy as the canvas narrows. Scale or simplify typography, spacing, imagery, and composition deliberately rather than mechanically collapsing the desktop layout.
 
-Stack elements when necessary, but retain the intended visual priority and relationships between them. Reduce complexity before reducing clarity.
+Stack elements when their proportions or reading measure become compromised. Preserve a sensible document, reading, and keyboard order when changing visual arrangement. Remove or reduce offsets and overlaps before they obscure content or controls.
+
+Give significant imagery a deliberate narrow-screen crop and focal point. Scale display type without crowding supporting content. Adapt navigation before labels become cramped or wrap unintentionally. Avoid fixed heights that clip content when text wraps or users enlarge it.
+
+Review representative narrow, intermediate, and wide viewports, including widths between layout changes. A successful desktop composition does not establish responsive correctness.
 
 ### Accessibility
 
-Maintain sufficient contrast, legible type, semantic hierarchy, and visible focus states throughout the experience. Accessibility should reinforce Suede’s clarity and restraint rather than be treated as a separate visual layer.
+Maintain readable contrast, legible typography, semantic headings, meaningful link text, accessible control names, and visible keyboard focus. Preserve access to content and controls when text is enlarged.
 
-Respect reduced-motion preferences and ensure that meaning, navigation, and interaction never depend on animation alone.
+Provide text alternatives for informative imagery and treat purely decorative imagery accordingly. Do not use color, icons, hover, or motion as the sole means of conveying information or enabling an action.
+
+Respect reduced-motion preferences. Accessibility should reinforce Suede’s clarity and restraint throughout the experience.
 
 ### Shape and depth
 
-Favor square, direct geometry. Buttons, form controls, separators, and primary interface elements should generally feel crisp rather than soft or pill-shaped. Rounded corners are available when the content or concept benefits from them, but they should be an exception rather than a default visual signature.
+Favor square, direct geometry for buttons, form controls, separators, and primary interface elements. Moderate or rounded geometry may be selected when it supports the subject or visual thesis. Treat that choice as part of the expression and apply it consistently within each control family; do not vary corners arbitrarily from element to element.
 
-Use borders and rules sparingly, typically at **1px**, to define structure without creating visual noise.
+Use borders and rules sparingly, typically at **1px**, to define structure. Avoid outlining every content group.
 
-Treat shadows as accents, not ambient decoration. Suede’s shadow vocabulary includes a soft neutral shadow, a solid offset accent shadow, and a subtle offset accent shadow. Use them selectively when an element needs separation or deliberate graphic emphasis; avoid routine card shadows across the interface.
+Treat shadows as accents, not ambient decoration. Suede’s shadow vocabulary includes a soft neutral shadow, a solid offset accent shadow, and a subtle offset accent shadow. Use verified project presets when an element needs separation or graphic emphasis. Avoid routine card shadows across the interface.
 
 ### Interaction
 
-Text links should remain visibly identifiable, normally through an underline. Hover states may shift toward the accent color while preserving clarity and contrast.
+Inline text links should remain visibly identifiable, normally through an underline. Navigation may use a consistent treatment appropriate to its context, with clear current and interactive states. Hover may shift toward the accent color where contrast remains readable.
 
-Primary buttons use the accent color with white, uppercase small text, medium weight, and generous padding. Outline buttons use a transparent background with an accent border and text. On hover, filled buttons become transparent with an accent border and text, while outline buttons become accent-filled with white text. Choose square, moderate, or rounded corner geometry according to the composition and apply it consistently within the experience.
+On compatible backgrounds, primary buttons use accent gold with white, small uppercase text, medium weight, and generous padding. Outline buttons use a transparent background with an accent border and text. Filled buttons may become transparent with an accent border and text on hover; outline buttons may become accent-filled with white text.
 
-Interactive feedback should be immediate but quiet. Prefer color, border, or restrained transform changes over elaborate effects. Focus states must remain visible and should not be removed for aesthetic reasons.
+Check each button state against its actual background. On dark or image-led surfaces, adapt foreground, fill, or border using the core palette when the default treatment loses clarity. Keep primary and secondary actions distinguishable and corner geometry consistent.
+
+Interactive feedback should be immediate but quiet. Prefer color and border changes; use restrained transforms only when they clarify interaction. Provide visible focus states and distinct active, selected, or disabled states where applicable. Do not make an essential action discoverable only on hover.
 
 ### Iconography
 
-Use **Google Material Symbols Sharp** for interface and supporting iconography, with a weight of **200** and an optical size of **48px** to maintain Suede’s refined, restrained visual character.
+Use **Google Material Symbols Sharp**, with **200** weight and **48px optical size**, for interface and supporting iconography. Optical size is the icon design setting, not a required rendered dimension. Choose displayed size according to the control or composition.
 
-Use icons selectively and at purposeful scale. They should clarify meaning, navigation, or interaction rather than serve as decoration. Prefer simple, recognizable symbols and maintain consistent weight and visual treatment throughout an experience.
+Use simple, recognizable symbols to clarify meaning, navigation, or interaction. Maintain consistent weight and treatment, using `currentColor` where appropriate. Do not add icons to every heading, feature, or list item for decoration. Give icon-only controls accessible names; hide decorative icons from assistive technology when adjacent text already provides their meaning.
 
 ## Imagery
 
-Imagery should reinforce the subject, character, and purpose of the experience while carrying meaningful visual weight within the composition.
+Imagery should reinforce the subject, character, and purpose of the experience while carrying meaningful visual weight. Prefer fewer, substantial images over small decorative imagery.
 
-Prefer fewer, substantial images over small decorative imagery. Homepage hero imagery should carry meaningful visual weight and may be full-width, contained, layered, or integrated into the composition. When using a full-width Cover block with overlaid text, consider Suede’s **Fade Down** gradient to support legibility and atmosphere.
+Hero imagery may be full-width, contained, layered, or integrated into the composition. Choose the treatment according to the visual thesis rather than defaulting to a full-width Cover block. When overlaying text, select imagery and tonal treatments that preserve legibility across crops and viewport sizes.
 
-When generating imagery, favor restrained, grounded color and tonal qualities that complement Suede’s visual system rather than compete with it.
+Choose cropping, focal point, scale, and positioning according to the composition while preserving subject details essential to the content. Do not use imagery merely to fill space, and avoid embedding essential copy or controls inside images.
 
-Choose imagery, cropping, focal point, scale, and positioning according to the composition. Crop for the composition, not merely to keep the subject visible. Do not use imagery merely to fill space.
+When generating imagery, favor grounded color, credible subjects, and tonal qualities that complement the system. Do not equate refinement with generic beige interiors, empty architecture, or stock luxury imagery regardless of the subject.
 
 ## Motion
 
-Motion should reinforce hierarchy, focus, and interaction without calling attention to itself.
+Motion should reinforce hierarchy, focus, and interaction without calling attention to itself. Use the existing motion vocabulary to introduce content, clarify interaction, or add depth where appropriate. Do not animate every section automatically.
 
-Prefer subtle transitions and Suede’s existing motion vocabulary over decorative animation. Use motion to introduce content, clarify interaction, or add depth where appropriate.
+Use **250ms** for quick interface transitions and **500ms** for larger visual movement, with **ease-out** timing. For entrance motion, use a travel distance of approximately **30px**. For image zoom on hover, use a scale of approximately **1.05** and contain the enlargement within the intended image area. Keep this zoom treatment on imagery rather than text or interface controls.
 
-Use **250ms** for quick interface transitions and **500ms** for larger visual movement. Favor **ease-out** timing so motion feels responsive and settles naturally.
+Content must remain available if entrance animation does not run. Disable or simplify nonessential movement when reduced motion is requested. Meaning, navigation, and interaction must survive with motion disabled.
 
-For entrance motion, use a restrained travel distance of approximately **30px**. For image zoom interactions, use a subtle scale of approximately **1.05**. These values should feel barely perceptible rather than theatrical.
+## Review
 
-Animation should feel deliberate, restrained, and consistent across the experience. Avoid effects that compete with the content or exist only for novelty.
+Before delivering a new composition or meaningful revision, check the rendered result against these questions:
 
-Respect reduced-motion preferences. Motion is an enhancement to hierarchy and interaction, never a requirement for understanding or navigation.
+* Is the primary visual priority clear, with supporting content visibly subordinate?
+* Do typography, imagery, and space express a coherent thesis rather than a generic template?
+* Do repeated elements behave consistently, with variation justified by content?
+* Do widths, spacing, and grouping communicate useful relationships?
+* Does the composition retain its intent across narrow, intermediate, and wide viewports?
+* Are text, controls, and every interaction state readable and accessible on their actual backgrounds?
+* Does the experience remain usable with keyboard input, enlarged text, and motion disabled?
+* Are referenced presets, assets, and capabilities verified in the implementation?
+* Can anything be removed without weakening meaning, function, or character?
+
+When rendered verification is unavailable, distinguish design intent from verified behavior. Do not claim checks that were not performed.
 
 ## Application
 
-Treat these specifications as constraints, not templates. Use them to preserve Suede’s visual character across different subjects and media without forcing compositions into a predetermined aesthetic. Interpret the system according to the content, context, and medium. Variation should strengthen the composition rather than add novelty.
+Treat these specifications as constraints, not templates. Preserve Suede’s visual character across subjects and media without forcing every composition into the same aesthetic. Interpret the system according to content, context, and medium. Variation should strengthen the composition rather than add novelty.
