@@ -13,8 +13,6 @@ A refined approach to design centered on authority and presence.
 
 Suede is distributed as open-source software under the GPL, but it is offered commercially as a professionally curated and maintained theme.
 
-Purchasing Suede supports ongoing development, updates, documentation, and long-term stewardship of the design system.
-
 == Copyright ==
 
 Suede WordPress theme, (C) 2006-2026 Brian Gardner.
@@ -22,7 +20,7 @@ Suede is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
+the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
