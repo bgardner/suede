@@ -21,24 +21,25 @@
 	let ticking = false;
 
 	function update() {
-		const y = window.scrollY;
+		const y = Math.max( 0, window.scrollY );
 		const delta = y - lastY;
-
-		if ( Math.abs( delta ) < directionDelta ) {
-			lastY = y;
-			ticking = false;
-			return;
-		}
-
+	
+		ticking = false;
+	
 		if ( y <= threshold ) {
 			body.classList.remove( 'scroll-up', 'scroll-down' );
-		} else {
-			body.classList.toggle( 'scroll-down', delta > 0 );
-			body.classList.toggle( 'scroll-up', delta < 0 );
+			lastY = y;
+			return;
 		}
-
+	
+		if ( Math.abs( delta ) < directionDelta ) {
+			return;
+		}
+	
+		body.classList.toggle( 'scroll-down', delta > 0 );
+		body.classList.toggle( 'scroll-up', delta < 0 );
+	
 		lastY = y;
-		ticking = false;
 	}
 
 	function onScroll() {
