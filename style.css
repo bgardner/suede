@@ -136,12 +136,6 @@ input[type="radio"] {
 	padding: 2px 5px !important;
 }
 
-/* Paragraph */
-
-.wp-block-paragraph.is-style-indent {
-	text-indent: 2em;
-}
-
 /* Separator */
 
 .wp-block-separator.is-style-extended {

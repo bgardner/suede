@@ -29,7 +29,6 @@ function suede_register_block_styles() {
 		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'suede' ),
 			'eyebrow'  => __( 'Eyebrow', 'suede' ),
-			'indent'   => __( 'Indent', 'suede' ),
 		],
 		'core/post-excerpt' => [
 			'balanced' => __( 'Balanced', 'suede' ),
