@@ -20,7 +20,7 @@
 				<!-- /wp:paragraph -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 				<div class="wp-block-group">
-					<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","lineHeight":"1.75","fontWeight":"400"}}} /-->
+					<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","lineHeight":"1.75","fontWeight":"400"}},"fontSize":"x-small"} /-->
 					<!-- wp:paragraph -->
 					<p>.</p>
 					<!-- /wp:paragraph -->

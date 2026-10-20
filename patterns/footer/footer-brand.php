@@ -11,7 +11,7 @@
 <div class="wp-block-group alignfull has-white-50-color has-black-background-color has-text-color has-background has-link-color has-xx-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--100);padding-bottom:var(--wp--preset--spacing--100)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:site-title {"level":0,"isLink":false,"className":"is-style-eyebrow","textColor":"white","fontSize":"small"} /-->
+		<!-- wp:site-title {"level":0,"isLink":false,"className":"is-style-eyebrow","textColor":"white","fontSize":"x-small"} /-->
 		<!-- wp:group {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group" style="letter-spacing:0.05em;text-transform:uppercase">
 			<!-- wp:paragraph -->

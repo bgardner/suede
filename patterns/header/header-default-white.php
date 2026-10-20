@@ -13,13 +13,13 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
-			<!-- wp:site-title {"level":0} /-->
+			<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em"}},"fontSize":"x-small"} /-->
 			<!-- wp:separator {"className":"has-text-color has-contrast-color has-alpha-channel-opacity has-accent-background-color has-background","backgroundColor":"accent"} -->
 			<hr class="wp-block-separator has-text-color has-accent-color has-alpha-channel-opacity has-accent-background-color has-background has-contrast-color"/>
 			<!-- /wp:separator -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:navigation {"overlay":"navigation-overlay","layout":{"type":"flex","setCascadingProperties":true}} /-->
+		<!-- wp:navigation {"overlay":"navigation-overlay","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em"}},"fontSize":"xxx-small","layout":{"type":"flex","setCascadingProperties":true}} /-->
 	</div>
 	<!-- /wp:group -->
 </div>
