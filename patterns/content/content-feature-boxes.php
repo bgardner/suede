@@ -25,8 +25,8 @@
 			<!-- wp:heading {"className":"is-style-eyebrow","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center is-style-eyebrow has-x-small-font-size"><?php echo esc_html__( 'Feature Heading', 'suede' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
+			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -36,8 +36,8 @@
 			<!-- wp:heading {"className":"is-style-eyebrow","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center is-style-eyebrow has-x-small-font-size"><?php echo esc_html__( 'Feature Heading', 'suede' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
+			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -47,8 +47,8 @@
 			<!-- wp:heading {"className":"is-style-eyebrow","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center is-style-eyebrow has-x-small-font-size"><?php echo esc_html__( 'Feature Heading', 'suede' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
+			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -58,8 +58,8 @@
 			<!-- wp:heading {"className":"is-style-eyebrow","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center is-style-eyebrow has-x-small-font-size"><?php echo esc_html__( 'Feature Heading', 'suede' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
+			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -69,8 +69,8 @@
 			<!-- wp:heading {"className":"is-style-eyebrow","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center is-style-eyebrow has-x-small-font-size"><?php echo esc_html__( 'Feature Heading', 'suede' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
+			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -80,8 +80,8 @@
 			<!-- wp:heading {"className":"is-style-eyebrow","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center is-style-eyebrow has-x-small-font-size"><?php echo esc_html__( 'Feature Heading', 'suede' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
+			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Design and launch your WordPress website in minutes with Suede.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
