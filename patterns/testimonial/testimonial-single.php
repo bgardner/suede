@@ -11,7 +11,7 @@
 	<p class="has-text-align-center">★ ★ ★ ★ ★</p>
 	<!-- /wp:paragraph -->
 	<!-- wp:paragraph {"align":"center","className":"is-style-balanced","style":{"spacing":{"margin":{"top":"10px"}},"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
-	<p class="has-text-align-center is-style-balanced has-small-font-size" style="margin-top:10px;line-height:1.5"><?php echo esc_html__( '“Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.”', 'suede' ); ?></p>
+	<p class="has-text-align-center is-style-balanced has-small-font-size" style="margin-top:10px;line-height:1.5"><?php echo esc_html__( '“Rooted in simplicity, Suede delivers an unmistakable sense of refinement, authority, and presence.”', 'suede' ); ?></p>
 	<!-- /wp:paragraph -->
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 	<div class="wp-block-group">

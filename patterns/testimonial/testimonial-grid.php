@@ -13,7 +13,7 @@
 		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:60px"/></figure>
 		<!-- /wp:image -->
 		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center","lineHeight":"1.25"}},"fontSize":"x-large"} -->
-		<p class="has-text-align-center is-style-balanced has-x-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.', 'suede' ); ?></p>
+		<p class="has-text-align-center is-style-balanced has-x-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'Rooted in simplicity, Suede delivers an unmistakable sense of refinement, authority, and presence.', 'suede' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em","fontStyle":"normal","fontWeight":"500","textAlign":"center"}},"fontSize":"x-small"} -->
 		<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:500;letter-spacing:0.05em;text-transform:uppercase"><?php echo esc_html__( 'Jennifer Kayne', 'suede' ); ?></p>
@@ -31,7 +31,7 @@
 			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center is-style-balanced"><?php echo esc_html__( 'Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.', 'suede' ); ?></p>
+			<p class="has-text-align-center is-style-balanced"><?php echo esc_html__( 'Rooted in simplicity, Suede delivers an unmistakable sense of refinement, authority, and presence.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em","fontStyle":"normal","fontWeight":"500","textAlign":"center"}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:500;letter-spacing:0.05em;text-transform:uppercase"><?php echo esc_html__( 'Jennifer Kayne', 'suede' ); ?></p>
@@ -47,7 +47,7 @@
 			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}}} -->
-			<p class="has-text-align-center is-style-balanced"><?php echo esc_html__( 'Rooted in simplicity and designed with precision, Suede delivers an unmistakable sense of style, authority, and presence.', 'suede' ); ?></p>
+			<p class="has-text-align-center is-style-balanced"><?php echo esc_html__( 'Rooted in simplicity, Suede delivers an unmistakable sense of refinement, authority, and presence.', 'suede' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em","fontStyle":"normal","fontWeight":"500","textAlign":"center"}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:500;letter-spacing:0.05em;text-transform:uppercase"><?php echo esc_html__( 'Jennifer Kayne', 'suede' ); ?></p>
