@@ -4,10 +4,6 @@
 	const root = document.documentElement;
 	const body = document.body;
 
-	if ( document.querySelector( '.site-header .no-scroll-reveal' ) ) {
-		return;
-	}
-
 	const reducedMotion = window.matchMedia( '(prefers-reduced-motion: reduce)' );
 
 	if ( reducedMotion.matches ) {
