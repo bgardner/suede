@@ -7,8 +7,8 @@
  * Template Types: footer
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"blockGap":"0","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|white-50"},":hover":{"color":{"text":"var:preset|color|white"}}}}},"backgroundColor":"black","textColor":"white-50","fontSize":"xx-small","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-white-50-color has-black-background-color has-text-color has-background has-link-color has-xx-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"blockGap":"0","padding":{"top":"var:preset|spacing|100","bottom":"var:preset|spacing|100"}},"elements":{"link":{"color":{"text":"var:preset|color|white-50"},":hover":{"color":{"text":"var:preset|color|white"}}}}},"backgroundColor":"black","textColor":"white-50","fontSize":"xx-small","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-white-50-color has-black-background-color has-text-color has-background has-link-color has-xx-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--100);padding-bottom:var(--wp--preset--spacing--100)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:site-title {"level":0,"isLink":false,"className":"is-style-eyebrow","textColor":"white","fontSize":"x-small"} /-->
