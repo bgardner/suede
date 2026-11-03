@@ -12,8 +12,8 @@
 	<!-- /wp:image -->
 	<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)">
-		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1","textAlign":"center","fontStyle":"normal","fontWeight":"300"}},"fontSize":"xx-large"} -->
-		<p class="has-text-align-center has-xx-large-font-size" style="font-style:normal;font-weight:300;line-height:1"><?php echo esc_html__( 'Rooted in simplicity, Suede delivers an unmistakable sense of refinement, authority, and presence.', 'suede' ); ?></p>
+		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"lineHeight":"1","textAlign":"center","fontStyle":"normal","fontWeight":"300"}},"fontSize":"xx-large"} -->
+		<p class="has-text-align-center is-style-balanced has-xx-large-font-size" style="font-style:normal;font-weight:300;line-height:1"><?php echo esc_html__( 'Rooted in simplicity, Suede delivers an unmistakable sense of refinement, authority, and presence.', 'suede' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph {"align":"center"} -->
 		<p class="has-text-align-center"><?php echo esc_html__( 'Jennifer Kayne, Designer', 'suede' ); ?></p>
