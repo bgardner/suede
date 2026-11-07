@@ -48,9 +48,19 @@
 					"slug": "fade-down"
 				},
 				{
+					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 50%, transparent 100%)",
+					"name": "Fade Down Light",
+					"slug": "fade-down-light"
+				},
+				{
 					"gradient": "linear-gradient(to top, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
 					"name": "Fade Up",
 					"slug": "fade-up"
+				},
+				{
+					"gradient": "linear-gradient(to top, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 50%, transparent 100%)",
+					"name": "Fade Up Light",
+					"slug": "fade-up-light"
 				},
 				{
 					"gradient": "linear-gradient(to right, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black) 25%, var(--wp--preset--color--black-50) 100%)",
