@@ -24,6 +24,7 @@ function suede_register_block_styles() {
 			'zoom'    => __( 'Zoom', 'suede' ),
 		],
 		'core/list' => [
+			'chevron'  => __( 'Chevron', 'suede' ),
 			'no-style' => __( 'No Style', 'suede' ),
 		],
 		'core/paragraph' => [
@@ -32,6 +33,7 @@ function suede_register_block_styles() {
 		],
 		'core/post-excerpt' => [
 			'balanced' => __( 'Balanced', 'suede' ),
+			'truncate' => __( 'Truncate', 'suede' ),
 		],
 		'core/post-featured-image' => [
 			'zoom' => __( 'Zoom', 'suede' ),

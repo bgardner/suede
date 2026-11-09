@@ -109,9 +109,22 @@ input[type="radio"] {
 
 /* List */
 
+.wp-block-list.is-style-chevron,
 .wp-block-list.is-style-no-style {
-	list-style-type: none;
+	list-style: none;
 	padding-left: 0;
+}
+
+.wp-block-list.is-style-chevron li {
+	padding-left: var(--wp--preset--spacing--20);
+	position: relative;
+}
+
+.wp-block-list.is-style-chevron li::before {
+	color: var(--wp--preset--color--accent);
+	left: 5px;
+	content: "›";
+	position: absolute;
 }
 
 /* Navigation */
@@ -134,6 +147,14 @@ input[type="radio"] {
 
 .wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
 	padding: 2px 5px !important;
+}
+
+/* Post Excerpt */
+
+.wp-block-post-excerpt.is-style-truncate .wp-block-post-excerpt__excerpt {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 /* Separator */
