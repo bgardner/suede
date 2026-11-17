@@ -16,7 +16,7 @@ Suede isn’t designed around a collection of styles. It’s designed around a s
 
 Use this file to guide design decisions, including when generating or modifying an experience with AI. Apply explicit project requirements first, then Suede’s principles, then its defaults. Use expressive choices to adapt the defaults while preserving hierarchy, coherence, legibility, and purpose.
 
-Treat the primary typeface, typography settings, palette, widths, spacing scale, and interface treatments as defaults. Expanded and condensed typography, accent typefaces, oversized display type, overlap, rounded geometry, and changes in visual mode are deliberate choices rather than automatic additions. Introduce them only when they serve a specific content or compositional need.
+Treat the primary typeface, typography settings, palette, widths, spacing scale, and interface treatments as defaults. Alternative typefaces, oversized display type, overlap, rounded geometry, and changes in visual mode are deliberate choices rather than automatic additions. Introduce them only when they serve a specific content or compositional need.
 
 When modifying an existing experience, preserve its established decisions unless the request requires changing them. Resolve unspecified details through the existing system before introducing new treatments. Do not turn a local change into an unsolicited redesign.
 
