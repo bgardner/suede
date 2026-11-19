@@ -90,7 +90,7 @@ Use three maximum widths according to content:
 * **960px:** Focused compositions combining text with supporting media.
 * **1280px:** Broad page compositions, navigation, grids, columns, and substantial imagery.
 
-Treat **1280px** as the primary composition width for page sections, not a requirement that every element fill it. Backgrounds may span the viewport while inner content generally sits within a centered container. Reading copy may retain its 640px measure within a wider composition. Do not constrain multi-column sections to the reading measure.
+Treat **1280px** as the primary composition width for page sections, not a requirement that every element fill it. Backgrounds may span the viewport while inner content generally sits within a centered container. Explicitly constrain inner content of full-width blocks, including Cover blocks, to the theme’s wide alignment. Reading copy may retain its 640px measure within a wider composition. Do not constrain multi-column sections to the reading measure.
 
 Maintain consistent horizontal page gutters using the project’s existing values. When no values exist, choose gutters from the spacing scale and reduce them deliberately as the viewport narrows. Containers must retain usable edge space before reaching their maximum width.
 
