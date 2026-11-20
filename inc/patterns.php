@@ -18,6 +18,7 @@ function suede_register_pattern_categories() {
 		'header'         => __( 'Header', 'suede' ),
 		'hero'           => __( 'Hero', 'suede' ),
 		'pricing'        => __( 'Pricing', 'suede' ),
+		'sidebar'        => __( 'Sidebar', 'suede' ),
 		'testimonial'    => __( 'Testimonial', 'suede' ),
 		'theme'          => __( 'Theme', 'suede' ),
 	];
