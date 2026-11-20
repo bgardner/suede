@@ -59,3 +59,19 @@ function suede_enqueue_scroll_script() {
 	);
 }
 add_action( 'wp_enqueue_scripts', 'suede_enqueue_scroll_script' );
+
+/**
+ * Register Sidebar template part.
+ */
+function suede_register_template_part_areas( array $areas ): array {
+	$areas[] = [
+		'area'        => 'sidebar',
+		'area_tag'    => 'aside',
+		'label'       => __( 'Sidebar', 'suede' ),
+		'description' => __( 'Displays secondary content and navigation.', 'suede' ),
+		'icon'        => 'sidebar',
+	];
+
+	return $areas;
+}
+add_filter( 'default_wp_template_part_areas', 'suede_register_template_part_areas' );
