@@ -121,9 +121,10 @@ input[type="radio"] {
 }
 
 .wp-block-list.is-style-chevron li::before {
+	bottom: 2px;
 	color: var(--wp--preset--color--accent);
-	left: 5px;
 	content: "›";
+	left: 5px;
 	position: absolute;
 }
 
