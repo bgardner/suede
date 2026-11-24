@@ -141,18 +141,9 @@
 							"src": [
 								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
 							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Google Sans",
-							"fontStyle": "italic",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
-							]
 						}
 					],
-					"fontFamily": "Google Sans, sans-serif",
+					"fontFamily": "\"Google Sans\", sans-serif",
 					"name": "Google Sans",
 					"slug": "google-sans"
 				},
@@ -160,55 +151,17 @@
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Google Sans Condensed",
-							"fontStretch": "85%",
+							"fontFamily": "Google Sans Code",
 							"fontStyle": "normal",
-							"fontWeight": "100 900",
+							"fontWeight": "300 800",
 							"src": [
-								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Google Sans Condensed",
-							"fontStretch": "85%",
-							"fontStyle": "italic",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
+								"file:./assets/fonts/google-sans-code/google-sans-code.woff2"
 							]
 						}
 					],
-					"fontFamily": "Google Sans Condensed, sans-serif",
-					"name": "Google Sans Condensed",
-					"slug": "google-sans-condensed"
-				},
-				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Google Sans Expanded",
-							"fontStretch": "110%",
-							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Google Sans Expanded",
-							"fontStretch": "110%",
-							"fontStyle": "italic",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/google-sans/google-sans-flex.woff2"
-							]
-						}
-					],
-					"fontFamily": "Google Sans Expanded, sans-serif",
-					"name": "Google Sans Expanded",
-					"slug": "google-sans-expanded"
+					"fontFamily": "\"Google Sans Code\", monospace",
+					"name": "Google Sans Code",
+					"slug": "google-sans-code"
 				}
 			],
 			"fontSizes": [
@@ -322,7 +275,8 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)"
+					"fontFamily": "var(--wp--preset--font-family--google-sans-code)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)"
 				}
 			},
 			"core/cover": {
@@ -418,7 +372,8 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)"
+					"fontFamily": "var(--wp--preset--font-family--google-sans-code)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)"
 				}
 			},
 			"core/query-title": {
